@@ -1,0 +1,38 @@
+/*
+Pedir numero de grupos
+Pedir numero de alumnos por grupo
+Capturar calificaciones
+ */
+package eva1_11_ejemplo_arreglos;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author moviles
+ */
+public class EVA1_11_EJEMPLO_ARREGLOS {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+      
+        int arregloCali[][];
+        //Primer dimensión --> grupos
+        //Segunda dimensión --> estudiantes x grupo
+        //DETERMINAR LOS GRUPOS
+        Scanner input = new Scanner(System.in);
+        System.out.println("Introduce el número de grupos: ");
+        int iGpos = input.nextInt();
+        arregloCali = new int[iGpos][];
+            
+        }
+        //Para cada grupo: Cuantos alumnos estudiantes necesitas?
+        for(int i = 0; i < arregloCali.length; i++)
+        arregloCali[0] = new int[10];
+       
+    }
+    
+}
